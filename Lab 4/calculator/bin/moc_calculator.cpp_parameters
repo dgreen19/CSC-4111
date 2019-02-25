@@ -1,0 +1,15 @@
+-ID:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/lab_04/calculator/bin
+-ID:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/lab_04/calculator
+-ID:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/lab_04/calculator/(
+-ID:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include
+-ID:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include/QtWidgets
+-ID:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include/QtGui
+-ID:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include/QtCore
+-ID:/Qt/Qt5.9.1/5.9.1/msvc2017_64/./mkspecs/win32-msvc
+-ID:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include/QtANGLE
+-ID:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/lab_04/calculator/)
+-DWIN32
+--compiler-flavor=msvc
+-o
+D:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/lab_04/calculator/bin/moc_calculator.cpp
+D:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/lab_04/calculator/calculator.h

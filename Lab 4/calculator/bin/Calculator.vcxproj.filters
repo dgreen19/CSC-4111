@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\lab_04\calculator\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\lab_04\calculator\calculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\lab_04\calculator\bin\moc_calculator.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\lab_04\calculator\bin\ui_calculator.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\lab_04\calculator\calculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\lab_04\calculator\bin\CMakeFiles\5eae84fb12ebb64bf0351e902c0a5360\moc_calculator.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\lab_04\calculator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A8DA5941-182C-345E-8C0A-83681CCE4E4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{36A5BD8A-C45F-38B6-AA3B-82A597ADB239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CE0336FA-BD70-3D26-A20A-70568A39007F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{CD3198E4-F332-3FD7-AA71-EA73A5F5E695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AF907F00-2F74-3854-B640-B25EDC71B9FE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\calculator.ui">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
