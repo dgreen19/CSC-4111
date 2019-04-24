@@ -1,0 +1,12 @@
+-IH:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/.
+-IH:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include
+-IH:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include/QtWidgets
+-IH:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include/QtGui
+-IH:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include/QtCore
+-IH:/Qt/Qt5.9.1/5.9.1/msvc2017_64/./mkspecs/win32-msvc
+-IH:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include/QtANGLE
+-DWIN32
+--compiler-flavor=msvc
+-o
+H:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin/sources/dialogs/moc_textdialog.cpp
+H:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/dialogs/textdialog.h

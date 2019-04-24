@@ -1,0 +1,891 @@
+﻿  convexhexagonselectioninstrument.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\malloc.h(45): warning C4820: '_heapinfo': '4' bytes padding added after data member '_heapinfo::_useflag'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vcruntime_exception.h(25): warning C4820: '__std_exception_data': '7' bytes padding added after data member '__std_exception_data::_DoFree'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qglobal.h(895): warning C4619: #pragma warning: there is no warning number '4800'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qrefcount.h(109): warning C4625: 'QtPrivate::RefCount': copy constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qrefcount.h(109): warning C5026: 'QtPrivate::RefCount': move constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qrefcount.h(109): warning C4626: 'QtPrivate::RefCount': assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qrefcount.h(109): warning C5027: 'QtPrivate::RefCount': move assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(55): warning C4820: 'QArrayData': '4' bytes padding added after data member 'QArrayData::capacityReserved'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(124): warning C4625: 'QArrayData': copy constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(124): warning C5026: 'QArrayData': move constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(124): warning C4626: 'QArrayData': assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(124): warning C5027: 'QArrayData': move assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vcruntime_typeinfo.h(44): warning C4820: '__std_type_info_data': '7' bytes padding added after data member '__std_type_info_data::_DecoratedName'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocinfo.h(60): warning C4820: '_Collvec': '4' bytes padding added after data member '_Collvec::_Page'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocinfo.h(66): warning C4820: '_Ctypevec': '4' bytes padding added after data member '_Ctypevec::_Page'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocinfo.h(68): warning C4820: '_Ctypevec': '4' bytes padding added after data member '_Ctypevec::_Delfl'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xutility(4183): warning C4820: 'std::_Yarn<char>': '7' bytes padding added after data member 'std::_Yarn<char>::_Nul'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocinfo(228): note: see reference to class template instantiation 'std::_Yarn<char>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocinfo(228): warning C4820: 'std::_Locinfo': '4' bytes padding added after data member 'std::_Locinfo::_Lock'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xutility(4183): warning C4820: 'std::_Yarn<wchar_t>': '6' bytes padding added after data member 'std::_Yarn<wchar_t>::_Nul'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocinfo(230): note: see reference to class template instantiation 'std::_Yarn<wchar_t>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(182): warning C4820: 'std::locale::facet': '4' bytes padding added after data member 'std::locale::facet::_Myrefs'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(247): warning C4820: 'std::locale::_Locimp': '3' bytes padding added after data member 'std::locale::_Locimp::_Xparent'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(488): warning C4820: 'std::locale': '7' bytes padding added after base class 'std::_Crt_new_delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(330): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(356): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(812): warning C4625: 'std::codecvt_base': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(812): warning C4626: 'std::codecvt_base': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(1353): warning C4625: 'std::codecvt<char16_t,char,_Mbstatet>': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(1353): warning C4626: 'std::codecvt<char16_t,char,_Mbstatet>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(1678): warning C4625: 'std::codecvt<char32_t,char,_Mbstatet>': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(1678): warning C4626: 'std::codecvt<char32_t,char,_Mbstatet>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(1922): warning C4820: 'std::codecvt<wchar_t,char,_Mbstatet>': '4' bytes padding added after data member 'std::codecvt<wchar_t,char,_Mbstatet>::_Cvt'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(1922): warning C4625: 'std::codecvt<wchar_t,char,_Mbstatet>': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(1922): warning C4626: 'std::codecvt<wchar_t,char,_Mbstatet>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(2171): warning C4820: 'std::codecvt<unsigned short,char,_Mbstatet>': '4' bytes padding added after data member 'std::codecvt<unsigned short,char,_Mbstatet>::_Cvt'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(2171): warning C4625: 'std::codecvt<unsigned short,char,_Mbstatet>': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(2171): warning C4626: 'std::codecvt<unsigned short,char,_Mbstatet>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(2219): warning C4625: 'std::ctype_base': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(2219): warning C4626: 'std::ctype_base': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(2721): warning C4625: 'std::ctype<char>': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(2721): warning C4626: 'std::ctype<char>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(2962): warning C4820: 'std::ctype<wchar_t>': '4' bytes padding added after data member 'std::ctype<wchar_t>::_Cvt'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(2962): warning C4625: 'std::ctype<wchar_t>': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(2962): warning C4626: 'std::ctype<wchar_t>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(3205): warning C4820: 'std::ctype<unsigned short>': '4' bytes padding added after data member 'std::ctype<unsigned short>::_Cvt'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(3205): warning C4625: 'std::ctype<unsigned short>': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(3205): warning C4626: 'std::ctype<unsigned short>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(3250): warning C4625: 'std::ctype_byname<char>': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(3250): warning C4626: 'std::ctype_byname<char>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(943): warning C4625: 'std::codecvt<char,char,_Mbstatet>': copy constructor was implicitly defined as deleted
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(3255): note: see reference to class template instantiation 'std::codecvt<char,char,_Mbstatet>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale(943): warning C4626: 'std::codecvt<char,char,_Mbstatet>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(192): warning C4820: 'std::error_code': '4' bytes padding added after data member 'std::error_code::_Myval'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(262): warning C4820: 'std::error_condition': '4' bytes padding added after data member 'std::error_condition::_Myval'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(498): warning C4625: 'std::_Generic_error_category': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(498): warning C5026: 'std::_Generic_error_category': move constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(498): warning C4626: 'std::_Generic_error_category': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(498): warning C5027: 'std::_Generic_error_category': move assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(526): warning C4625: 'std::_Iostream_error_category': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(526): warning C5026: 'std::_Iostream_error_category': move constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(526): warning C4626: 'std::_Iostream_error_category': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(526): warning C5027: 'std::_Iostream_error_category': move assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(574): warning C4625: 'std::_System_error_category': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(574): warning C5026: 'std::_System_error_category': move constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(574): warning C4626: 'std::_System_error_category': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error(574): warning C5027: 'std::_System_error_category': move assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xiosbase(589): warning C4820: 'std::ios_base::_Fnarray': '4' bytes padding added after data member 'std::ios_base::_Fnarray::_Index'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xiosbase(642): warning C4820: 'std::ios_base': '4' bytes padding added after data member 'std::ios_base::_Fmtfl'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(263): warning C4820: 'std::numpunct<char>': '6' bytes padding added after data member 'std::numpunct<char>::_Kseparator'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1848): note: see reference to class template instantiation 'std::numpunct<char>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(265): warning C4625: 'std::numpunct<char>': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(265): warning C4626: 'std::numpunct<char>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1394): warning C4625: 'std::num_get<char,std::istreambuf_iterator<char,std::char_traits<char>>>': copy constructor was implicitly defined as deleted
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1850): note: see reference to class template instantiation 'std::num_get<char,std::istreambuf_iterator<char,std::char_traits<char>>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1394): warning C4626: 'std::num_get<char,std::istreambuf_iterator<char,std::char_traits<char>>>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1833): warning C4625: 'std::num_put<char,std::ostreambuf_iterator<char,std::char_traits<char>>>': copy constructor was implicitly defined as deleted
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1852): note: see reference to class template instantiation 'std::num_put<char,std::ostreambuf_iterator<char,std::char_traits<char>>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1833): warning C4626: 'std::num_put<char,std::ostreambuf_iterator<char,std::char_traits<char>>>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(263): warning C4820: 'std::numpunct<wchar_t>': '4' bytes padding added after data member 'std::numpunct<wchar_t>::_Kseparator'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1854): note: see reference to class template instantiation 'std::numpunct<wchar_t>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(265): warning C4625: 'std::numpunct<wchar_t>': copy constructor was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(265): warning C4626: 'std::numpunct<wchar_t>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1394): warning C4625: 'std::num_get<wchar_t,std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>': copy constructor was implicitly defined as deleted
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1856): note: see reference to class template instantiation 'std::num_get<wchar_t,std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1394): warning C4626: 'std::num_get<wchar_t,std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1833): warning C4625: 'std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>': copy constructor was implicitly defined as deleted
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1858): note: see reference to class template instantiation 'std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1833): warning C4626: 'std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>': assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ios(188): warning C4820: 'std::basic_ios<char,std::char_traits<char>>': '7' bytes padding added after data member 'std::basic_ios<char,std::char_traits<char>>::_Fillch'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ios(194): note: see reference to class template instantiation 'std::basic_ios<char,std::char_traits<char>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ios(188): warning C4820: 'std::basic_ios<wchar_t,std::char_traits<wchar_t>>': '6' bytes padding added after data member 'std::basic_ios<wchar_t,std::char_traits<wchar_t>>::_Fillch'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ios(196): note: see reference to class template instantiation 'std::basic_ios<wchar_t,std::char_traits<wchar_t>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ostream(629): warning C4820: 'std::basic_ostream<char,std::char_traits<char>>': '4' bytes padding added after data member 'std::basic_ostream<char,std::char_traits<char>>::{vbptr}'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ostream(687): note: see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ostream(629): warning C4820: 'std::basic_ostream<wchar_t,std::char_traits<wchar_t>>': '4' bytes padding added after data member 'std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::{vbptr}'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ostream(689): note: see reference to class template instantiation 'std::basic_ostream<wchar_t,std::char_traits<wchar_t>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream(743): warning C4820: 'std::basic_istream<char,std::char_traits<char>>': '4' bytes padding added after data member 'std::basic_istream<char,std::char_traits<char>>::_Chcount'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream(773): note: see reference to class template instantiation 'std::basic_istream<char,std::char_traits<char>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream(743): warning C4820: 'std::basic_istream<wchar_t,std::char_traits<wchar_t>>': '4' bytes padding added after data member 'std::basic_istream<wchar_t,std::char_traits<wchar_t>>::_Chcount'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream(774): note: see reference to class template instantiation 'std::basic_istream<wchar_t,std::char_traits<wchar_t>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream(834): warning C4820: 'std::basic_iostream<char,std::char_traits<char>>': '4' bytes padding added after base class 'std::basic_ostream<char,std::char_traits<char>>'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream(839): note: see reference to class template instantiation 'std::basic_iostream<char,std::char_traits<char>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream(834): warning C4820: 'std::basic_iostream<wchar_t,std::char_traits<wchar_t>>': '4' bytes padding added after base class 'std::basic_ostream<wchar_t,std::char_traits<wchar_t>>'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream(840): note: see reference to class template instantiation 'std::basic_iostream<wchar_t,std::char_traits<wchar_t>>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4625: 'QTypedArrayData<char>': copy constructor was implicitly defined as deleted
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qbytearray.h(438): note: see reference to class template instantiation 'QTypedArrayData<char>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5026: 'QTypedArrayData<char>': move constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4626: 'QTypedArrayData<char>': assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5027: 'QTypedArrayData<char>': move assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qbytearray.h(495): warning C4365: 'return': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qbytearray.h(546): warning C4820: 'QByteRef': '4' bytes padding added after data member 'QByteRef::i'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qbytearray.h(551): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qbytearray.h(595): warning C4365: 'argument': conversion from 'int' to 'size_t', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qbytearray.h(645): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qbytearray.h(647): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qbytearray.h(649): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qbytearray.h(663): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(137): warning C4820: 'QLatin1String': '4' bytes padding added after data member 'QLatin1String::m_size'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(94): warning C4365: 'argument': conversion from 'int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4625: 'QTypedArrayData<ushort>': copy constructor was implicitly defined as deleted
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(228): note: see reference to class template instantiation 'QTypedArrayData<ushort>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5026: 'QTypedArrayData<ushort>': move constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4626: 'QTypedArrayData<ushort>': assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5027: 'QTypedArrayData<ushort>': move assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(545): warning C4365: 'argument': conversion from 'int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(545): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(547): warning C4365: 'argument': conversion from 'int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(547): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(549): warning C4365: 'argument': conversion from 'int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(549): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(661): warning C4365: 'argument': conversion from 'int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(661): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(909): warning C4365: 'return': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1076): warning C4820: 'QCharRef': '4' bytes padding added after data member 'QCharRef::i'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1010): warning C4365: 'argument': conversion from 'uchar' to 'char', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1114): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1154): warning C4365: 'argument': conversion from 'int' to 'size_t', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1160): warning C4365: 'argument': conversion from 'const int' to 'size_t', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1250): warning C4365: 'argument': conversion from 'int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1250): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1252): warning C4365: 'argument': conversion from 'int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1252): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1263): warning C4365: 'argument': conversion from 'int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1263): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1265): warning C4365: 'argument': conversion from 'int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1265): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1327): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1335): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1347): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1354): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1356): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1515): warning C4365: 'argument': conversion from 'int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1515): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(93): warning C4625: 'QListData::Data': copy constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(93): warning C5026: 'QListData::Data': move constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(93): warning C4626: 'QListData::Data': assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(93): warning C5027: 'QListData::Data': move assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstringmatcher.h(79): warning C4820: 'QStringMatcher::Data': '4' bytes padding added after data member 'QStringMatcher::Data::len'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstringmatcher.h(83): warning C4820: 'QStringMatcher': '4' bytes padding added after data member 'QStringMatcher::q_cs'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(808): warning C4820: 'QtMetaTypePrivate::VariantData': '4' bytes padding added after data member 'QtMetaTypePrivate::VariantData::metaTypeId'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(813): warning C4820: 'QtMetaTypePrivate::VariantData': '4' bytes padding added after data member 'QtMetaTypePrivate::VariantData::flags'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vector(2571): warning C4626: 'std::_Vb_val<_Alloc>': assignment operator was implicitly defined as deleted
+          with
+          [
+              _Alloc=std::allocator<bool>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vector(2577): note: see reference to class template instantiation 'std::_Vb_val<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::allocator<bool>
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(865): note: see reference to class template instantiation 'std::vector<bool,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=bool
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(985): warning C4820: 'QtMetaTypePrivate::QSequentialIterableImpl': '4' bytes padding added after data member 'QtMetaTypePrivate::QSequentialIterableImpl::_iteratorCapabilities'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(2166): warning C4365: 'return': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(2167): warning C4365: 'return': conversion from 'const uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(2174): warning C4365: 'argument': conversion from 'const uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qobject_impl.h(84): warning C4820: 'QtPrivate::QSlotObjectBase': '4' bytes padding added after data member 'QtPrivate::QSlotObjectBase::m_ref'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\time.h(36): warning C4820: '_timespec64': '4' bytes padding added after data member '_timespec64::tv_nsec'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\time.h(43): warning C4820: 'timespec': '4' bytes padding added after data member 'timespec::tv_nsec'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\thr/xthrcommon.h(28): warning C4820: '<anonymous-tag>': '4' bytes padding added after data member '<anonymous-tag>::_Id'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\thr/xtimec.h(22): warning C4820: 'xtime': '4' bytes padding added after data member 'xtime::nsec'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtcore\qobject.h(563): warning C4820: 'QSignalBlocker': '6' bytes padding added after data member 'QSignalBlocker::m_inhibited'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qdatastream.h(199): warning C4820: 'QDataStream': '2' bytes padding added after data member 'QDataStream::noswap'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qdatastream.h(228): warning C4820: 'QtPrivate::StreamStateSaver': '4' bytes padding added after data member 'QtPrivate::StreamStateSaver::oldStatus'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qregion.h(175): warning C4820: 'QRegion::QRegionData': '4' bytes padding added after data member 'QRegion::QRegionData::ref'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qregion.h(176): warning C4625: 'QRegion::QRegionData': copy constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qregion.h(176): warning C5026: 'QRegion::QRegionData': move constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qregion.h(176): warning C4626: 'QRegion::QRegionData': assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qregion.h(176): warning C5027: 'QRegion::QRegionData': move assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qcoreevent.h(335): warning C4820: 'QEvent': '4' bytes padding added after data member 'QEvent::reserved'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qcoreevent.h(345): warning C4820: 'QTimerEvent': '4' bytes padding added after data member 'QTimerEvent::id'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qcoreevent.h(383): warning C4820: 'QDeferredDeleteEvent': '4' bytes padding added after data member 'QDeferredDeleteEvent::level'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(203): warning C4625: 'QMapDataBase': copy constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(203): warning C5026: 'QMapDataBase': move constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(203): warning C4626: 'QMapDataBase': assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(203): warning C5027: 'QMapDataBase': move assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qhash.h(69): warning C4820: 'QHashData::Node': '4' bytes padding added after data member 'QHashData::Node::h'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qhash.h(101): warning C4820: 'QHashData': '4' bytes padding added after data member 'QHashData::reserved'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qhash.h(101): warning C4625: 'QHashData': copy constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qhash.h(101): warning C5026: 'QHashData': move constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qhash.h(101): warning C4626: 'QHashData': assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qhash.h(101): warning C5027: 'QHashData': move assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvariant.h(369): warning C4820: 'QVariant::PrivateShared': '4' bytes padding added after data member 'QVariant::PrivateShared::ref'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvariant.h(408): warning C4820: 'QVariant::Private': '4' bytes padding added after data member 'QVariant::Private::is_null'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvector.h(312): warning C4619: #pragma warning: there is no warning number '4345'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4625: 'QTypedArrayData<T>': copy constructor was implicitly defined as deleted
+          with
+          [
+              T=QPointF
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvector.h(199): note: see reference to class template instantiation 'QTypedArrayData<T>' being compiled
+          with
+          [
+              T=QPointF
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvector.h(993): note: see reference to class template instantiation 'QVector<QPointF>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5026: 'QTypedArrayData<T>': move constructor was implicitly defined as deleted
+          with
+          [
+              T=QPointF
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4626: 'QTypedArrayData<T>': assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QPointF
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5027: 'QTypedArrayData<T>': move assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QPointF
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4625: 'QTypedArrayData<T>': copy constructor was implicitly defined as deleted
+          with
+          [
+              T=QPoint
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvector.h(199): note: see reference to class template instantiation 'QTypedArrayData<T>' being compiled
+          with
+          [
+              T=QPoint
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvector.h(994): note: see reference to class template instantiation 'QVector<QPoint>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5026: 'QTypedArrayData<T>': move constructor was implicitly defined as deleted
+          with
+          [
+              T=QPoint
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4626: 'QTypedArrayData<T>': assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QPoint
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5027: 'QTypedArrayData<T>': move assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QPoint
+          ]
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(152): warning C4820: 'QMouseEvent': '4' bytes padding added after data member 'QMouseEvent::velocity'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(234): warning C4820: 'QWheelEvent': '3' bytes padding added after data member 'QWheelEvent::invertedScrolling'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(291): warning C4820: 'QTabletEvent': '4' bytes padding added after data member 'QTabletEvent::mZ'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(319): warning C4820: 'QNativeGestureEvent': '4' bytes padding added after data member 'QNativeGestureEvent::mGestureType'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(324): warning C4820: 'QNativeGestureEvent': '4' bytes padding added after data member 'QNativeGestureEvent::mSequenceId'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(376): warning C4820: 'QKeyEvent': '4' bytes padding added after data member 'QKeyEvent::autor'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(392): warning C4820: 'QFocusEvent': '4' bytes padding added after data member 'QFocusEvent::m_reason'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(409): warning C4820: 'QPaintEvent': '7' bytes padding added after data member 'QPaintEvent::m_erased'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(451): warning C4820: 'QPlatformSurfaceEvent': '4' bytes padding added after data member 'QPlatformSurfaceEvent::m_surfaceEventType'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(524): warning C4820: 'QContextMenuEvent': '4' bytes padding added after data member 'QContextMenuEvent::reas'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(546): warning C4820: 'QInputMethodEvent::Attribute': '4' bytes padding added after data member 'QInputMethodEvent::Attribute::length'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(585): warning C4820: 'QInputMethodQueryEvent::QueryPair': '4' bytes padding added after data member 'QInputMethodQueryEvent::QueryPair::query'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4625: 'QTypedArrayData<T>': copy constructor was implicitly defined as deleted
+          with
+          [
+              T=QInputMethodQueryEvent::QueryPair
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvector.h(199): note: see reference to class template instantiation 'QTypedArrayData<T>' being compiled
+          with
+          [
+              T=QInputMethodQueryEvent::QueryPair
+          ]
+  h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(588): note: see reference to class template instantiation 'QVector<QInputMethodQueryEvent::QueryPair>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5026: 'QTypedArrayData<T>': move constructor was implicitly defined as deleted
+          with
+          [
+              T=QInputMethodQueryEvent::QueryPair
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4626: 'QTypedArrayData<T>': assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QInputMethodQueryEvent::QueryPair
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5027: 'QTypedArrayData<T>': move assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QInputMethodQueryEvent::QueryPair
+          ]
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(588): warning C4820: 'QInputMethodQueryEvent': '4' bytes padding added after data member 'QInputMethodQueryEvent::m_queries'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(628): warning C4820: 'QDropEvent': '4' bytes padding added after data member 'QDropEvent::default_action'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(753): warning C4820: 'QToolBarChangeEvent': '4' bytes padding added after data member 'QToolBarChangeEvent::tog'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(769): warning C4820: 'QShortcutEvent': '3' bytes padding added after data member 'QShortcutEvent::ambig'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(785): warning C4820: 'QWindowStateChangeEvent': '3' bytes padding added after data member 'QWindowStateChangeEvent::m_override'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(963): warning C4820: 'QTouchEvent': '4' bytes padding added after data member 'QTouchEvent::_touchPointStates'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(1026): warning C4820: 'QScrollEvent': '4' bytes padding added after data member 'QScrollEvent::m_state'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(1040): warning C4820: 'QScreenOrientationChangeEvent': '4' bytes padding added after data member 'QScreenOrientationChangeEvent::m_orientation'
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qevent.h(1050): warning C4820: 'QApplicationStateChangeEvent': '4' bytes padding added after data member 'QApplicationStateChangeEvent::m_applicationState'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qrgb.h(55): warning C4365: 'return': conversion from 'QRgb' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qrgb.h(58): warning C4365: 'return': conversion from 'QRgb' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qrgb.h(61): warning C4365: 'return': conversion from 'QRgb' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qrgb.h(64): warning C4365: 'return': conversion from 'QRgb' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qrgb.h(83): warning C4365: 'initializing': conversion from 'int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qrgb.h(83): warning C4365: 'initializing': conversion from 'int' to 'const uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qrgb.h(98): warning C4365: 'initializing': conversion from 'int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qrgb.h(98): warning C4365: 'initializing': conversion from 'int' to 'const uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qrgb.h(107): warning C4365: 'argument': conversion from 'const uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qrgb.h(107): warning C4365: 'argument': conversion from 'uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qcolor.h(271): warning C4820: 'QColor': '2' bytes padding added after data member 'QColor::ct'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qpaintdevice.h(103): warning C4820: 'QPaintDevice': '6' bytes padding added after data member 'QPaintDevice::painters'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qpixelformat.h(184): warning C4365: 'return': conversion from 'int' to 'uchar', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qpixelformat.h(207): warning C4365: 'return': conversion from 'int' to 'uchar', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qpainterpath.h(89): warning C4820: 'QPainterPath::Element': '4' bytes padding added after data member 'QPainterPath::Element::type'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qtransform.h(197): warning C4820: 'QTransform': '4' bytes padding added after data member 'QTransform::m_dirty'
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\abstractinstrument.h(69): warning C4625: 'AbstractInstrument': copy constructor was implicitly defined as deleted
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\abstractinstrument.h(69): warning C4626: 'AbstractInstrument': assignment operator was implicitly defined as deleted
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\abstractselection.h(82): warning C4820: 'AbstractSelection': '1' bytes padding added after data member 'AbstractSelection::mIsSelectionAdjusting'
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\abstractselection.h(84): warning C4820: 'AbstractSelection': '4' bytes padding added after data member 'AbstractSelection::mButton'
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\abstractselection.h(84): warning C4625: 'AbstractSelection': copy constructor was implicitly defined as deleted
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\abstractselection.h(84): warning C5026: 'AbstractSelection': move constructor was implicitly defined as deleted
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\abstractselection.h(84): warning C4626: 'AbstractSelection': assignment operator was implicitly defined as deleted
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\abstractselection.h(84): warning C5027: 'AbstractSelection': move assignment operator was implicitly defined as deleted
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\convexhexagonselectioninstrument.h(45): warning C4625: 'ConvexHexagonSelectionInstrument': copy constructor was implicitly defined as deleted
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\convexhexagonselectioninstrument.h(45): warning C5026: 'ConvexHexagonSelectionInstrument': move constructor was implicitly defined as deleted
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\convexhexagonselectioninstrument.h(45): warning C4626: 'ConvexHexagonSelectionInstrument': assignment operator was implicitly defined as deleted
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\convexhexagonselectioninstrument.h(45): warning C5027: 'ConvexHexagonSelectionInstrument': move assignment operator was implicitly defined as deleted
+H:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\convexhexagonselectioninstrument.cpp(2): warning C4464: relative include path contains '..'
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\additionaltools.h(105): warning C4625: 'AdditionalTools': copy constructor was implicitly defined as deleted
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\additionaltools.h(105): warning C4626: 'AdditionalTools': assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qsharedpointer_impl.h(169): warning C4625: 'QtSharedPointer::ExternalRefCountData': copy constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qsharedpointer_impl.h(169): warning C4626: 'QtSharedPointer::ExternalRefCountData': assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qpixmap.h(220): warning C4365: 'argument': conversion from 'int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4625: 'QTypedArrayData<T>': copy constructor was implicitly defined as deleted
+          with
+          [
+              T=QGradientStop
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvector.h(199): note: see reference to class template instantiation 'QTypedArrayData<T>' being compiled
+          with
+          [
+              T=QGradientStop
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qbrush.h(236): note: see reference to class template instantiation 'QVector<QGradientStop>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5026: 'QTypedArrayData<T>': move constructor was implicitly defined as deleted
+          with
+          [
+              T=QGradientStop
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4626: 'QTypedArrayData<T>': assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QGradientStop
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5027: 'QTypedArrayData<T>': move assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QGradientStop
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qpalette.h(189): warning C4820: 'QPalette': '4' bytes padding added after data member '<alignment member>'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qfont.h(323): warning C4820: 'QFont': '4' bytes padding added after data member 'QFont::resolve_mask'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtWidgets/qsizepolicy.h(176): warning C4365: 'initializing': conversion from 'int' to 'quint32', signed/unsigned mismatch
+h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtwidgets\qwidget.h(121): warning C4820: 'QWidgetData': '4' bytes padding added after data member 'QWidgetData::crect'
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\../imagearea.h(215): warning C4820: 'ImageArea': '4' bytes padding added after data member 'ImageArea::mRightButtonPressed'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4625: 'QTypedArrayData<T>': copy constructor was implicitly defined as deleted
+          with
+          [
+              T=AbstractInstrument *
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvector.h(199): note: see reference to class template instantiation 'QTypedArrayData<T>' being compiled
+          with
+          [
+              T=AbstractInstrument *
+          ]
+  h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\../imagearea.h(219): note: see reference to class template instantiation 'QVector<AbstractInstrument *>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5026: 'QTypedArrayData<T>': move constructor was implicitly defined as deleted
+          with
+          [
+              T=AbstractInstrument *
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4626: 'QTypedArrayData<T>': assignment operator was implicitly defined as deleted
+          with
+          [
+              T=AbstractInstrument *
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5027: 'QTypedArrayData<T>': move assignment operator was implicitly defined as deleted
+          with
+          [
+              T=AbstractInstrument *
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4625: 'QTypedArrayData<T>': copy constructor was implicitly defined as deleted
+          with
+          [
+              T=AbstractEffect *
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvector.h(199): note: see reference to class template instantiation 'QTypedArrayData<T>' being compiled
+          with
+          [
+              T=AbstractEffect *
+          ]
+  h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\../imagearea.h(221): note: see reference to class template instantiation 'QVector<AbstractEffect *>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5026: 'QTypedArrayData<T>': move constructor was implicitly defined as deleted
+          with
+          [
+              T=AbstractEffect *
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4626: 'QTypedArrayData<T>': assignment operator was implicitly defined as deleted
+          with
+          [
+              T=AbstractEffect *
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5027: 'QTypedArrayData<T>': move assignment operator was implicitly defined as deleted
+          with
+          [
+              T=AbstractEffect *
+          ]
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\../imagearea.h(268): warning C4625: 'ImageArea': copy constructor was implicitly defined as deleted
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\../imagearea.h(268): warning C4626: 'ImageArea': assignment operator was implicitly defined as deleted
+H:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\convexhexagonselectioninstrument.cpp(3): warning C4464: relative include path contains '..'
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\../undocommand.h(50): warning C4625: 'UndoCommand': copy constructor was implicitly defined as deleted
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\../undocommand.h(50): warning C5026: 'UndoCommand': move constructor was implicitly defined as deleted
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\../undocommand.h(50): warning C4626: 'UndoCommand': assignment operator was implicitly defined as deleted
+h:\documents\wayne state university\winter 2019\csc 4110\lab\csc4111w19grp1\project\sources\instruments\../undocommand.h(50): warning C5027: 'UndoCommand': move assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qtextoption.h(83): warning C4820: 'QTextOption::Tab': '2' bytes padding added after data member 'QTextOption::Tab::delimiter'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qtextoption.h(140): warning C4820: 'QTextOption': '4' bytes padding added after data member 'QTextOption::f'
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qtextoption.h(93): warning C4365: 'argument': conversion from 'const uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qtextoption.h(118): warning C4365: 'argument': conversion from 'const uint' to 'int', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qtextoption.h(147): warning C4365: '=': conversion from 'QFlags<Qt::AlignmentFlag>::Int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qtextoption.h(150): warning C4365: '=': conversion from 'QFlags<QTextOption::Flag>::Int' to 'uint', signed/unsigned mismatch
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4625: 'QTypedArrayData<T>': copy constructor was implicitly defined as deleted
+          with
+          [
+              T=QLineF
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvector.h(199): note: see reference to class template instantiation 'QTypedArrayData<T>' being compiled
+          with
+          [
+              T=QLineF
+          ]
+  h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qpainter.h(527): note: see reference to class template instantiation 'QVector<QLineF>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5026: 'QTypedArrayData<T>': move constructor was implicitly defined as deleted
+          with
+          [
+              T=QLineF
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4626: 'QTypedArrayData<T>': assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QLineF
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5027: 'QTypedArrayData<T>': move assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QLineF
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4625: 'QTypedArrayData<T>': copy constructor was implicitly defined as deleted
+          with
+          [
+              T=QLine
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvector.h(199): note: see reference to class template instantiation 'QTypedArrayData<T>' being compiled
+          with
+          [
+              T=QLine
+          ]
+  h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qpainter.h(532): note: see reference to class template instantiation 'QVector<QLine>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5026: 'QTypedArrayData<T>': move constructor was implicitly defined as deleted
+          with
+          [
+              T=QLine
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4626: 'QTypedArrayData<T>': assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QLine
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5027: 'QTypedArrayData<T>': move assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QLine
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4625: 'QTypedArrayData<T>': copy constructor was implicitly defined as deleted
+          with
+          [
+              T=QRectF
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvector.h(199): note: see reference to class template instantiation 'QTypedArrayData<T>' being compiled
+          with
+          [
+              T=QRectF
+          ]
+  h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qpainter.h(593): note: see reference to class template instantiation 'QVector<QRectF>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5026: 'QTypedArrayData<T>': move constructor was implicitly defined as deleted
+          with
+          [
+              T=QRectF
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4626: 'QTypedArrayData<T>': assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QRectF
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5027: 'QTypedArrayData<T>': move assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QRectF
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4625: 'QTypedArrayData<T>': copy constructor was implicitly defined as deleted
+          with
+          [
+              T=QRect
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvector.h(199): note: see reference to class template instantiation 'QTypedArrayData<T>' being compiled
+          with
+          [
+              T=QRect
+          ]
+  h:\qt\qt5.9.1\5.9.1\msvc2017_64\include\qtgui\qpainter.h(598): note: see reference to class template instantiation 'QVector<QRect>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5026: 'QTypedArrayData<T>': move constructor was implicitly defined as deleted
+          with
+          [
+              T=QRect
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C4626: 'QTypedArrayData<T>': assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QRect
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(274): warning C5027: 'QTypedArrayData<T>': move assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QRect
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qeventloop.h(83): warning C4625: 'QEventLoop': copy constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qeventloop.h(83): warning C4626: 'QEventLoop': assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qinputmethod.h(125): warning C4625: 'QInputMethod': copy constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui/qinputmethod.h(125): warning C4626: 'QInputMethod': assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(253): warning C4625: 'QMapData<Key,T>': copy constructor was implicitly defined as deleted
+          with
+          [
+              Key=QString,
+              T=QVariant
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(347): note: see reference to class template instantiation 'QMapData<Key,T>' being compiled
+          with
+          [
+              Key=QString,
+              T=QVariant
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(343): note: while compiling class template member function 'QMap<QString,QVariant>::QMap(QMap<QString,QVariant> &&) noexcept'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvariant.h(799): note: see reference to function template instantiation 'QMap<QString,QVariant>::QMap(QMap<QString,QVariant> &&) noexcept' being compiled
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvariant.h(792): note: see reference to class template instantiation 'QMap<QString,QVariant>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(253): warning C5026: 'QMapData<Key,T>': move constructor was implicitly defined as deleted
+          with
+          [
+              Key=QString,
+              T=QVariant
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(253): warning C4626: 'QMapData<Key,T>': assignment operator was implicitly defined as deleted
+          with
+          [
+              Key=QString,
+              T=QVariant
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(253): warning C5027: 'QMapData<Key,T>': move assignment operator was implicitly defined as deleted
+          with
+          [
+              Key=QString,
+              T=QVariant
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(216): warning C4820: 'QTypedArrayData<ushort>::AlignmentDummy': '6' bytes padding added after data member 'QTypedArrayData<ushort>::AlignmentDummy::data'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(237): note: see reference to class template instantiation 'QTypedArrayData<ushort>::AlignmentDummy' being compiled
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(235): note: while compiling class template member function 'void QTypedArrayData<ushort>::deallocate(QArrayData *)'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(1084): note: see reference to function template instantiation 'void QTypedArrayData<ushort>::deallocate(QArrayData *)' being compiled
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstring.h(228): note: see reference to class template instantiation 'QTypedArrayData<ushort>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(216): warning C4625: 'QTypedArrayData<ushort>::AlignmentDummy': copy constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(216): warning C5026: 'QTypedArrayData<ushort>::AlignmentDummy': move constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(216): warning C4626: 'QTypedArrayData<ushort>::AlignmentDummy': assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(216): warning C5027: 'QTypedArrayData<ushort>::AlignmentDummy': move assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(216): warning C4820: 'QTypedArrayData<char>::AlignmentDummy': '7' bytes padding added after data member 'QTypedArrayData<char>::AlignmentDummy::data'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(237): note: see reference to class template instantiation 'QTypedArrayData<char>::AlignmentDummy' being compiled
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(235): note: while compiling class template member function 'void QTypedArrayData<char>::deallocate(QArrayData *)'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qbytearray.h(462): note: see reference to function template instantiation 'void QTypedArrayData<char>::deallocate(QArrayData *)' being compiled
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qbytearray.h(438): note: see reference to class template instantiation 'QTypedArrayData<char>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(216): warning C4625: 'QTypedArrayData<char>::AlignmentDummy': copy constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(216): warning C5026: 'QTypedArrayData<char>::AlignmentDummy': move constructor was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(216): warning C4626: 'QTypedArrayData<char>::AlignmentDummy': assignment operator was implicitly defined as deleted
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qarraydata.h(216): warning C5027: 'QTypedArrayData<char>::AlignmentDummy': move assignment operator was implicitly defined as deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\streambuf(710): warning C4820: 'std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>': '7' bytes padding added after data member 'std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>::_Failed'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1623): note: see reference to class template instantiation 'std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1623): note: while compiling class template member function '_OutIt std::num_put<wchar_t,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,const void *) const'
+          with
+          [
+              _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>,
+              _Elem=wchar_t
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1858): note: see reference to class template instantiation 'std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1616): warning C4774: 'sprintf_s' : format string expected in argument 3 is not a string literal
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1616): note: e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1616): note: consider using constexpr specifier for named string literals
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1599): note: while compiling class template member function '_OutIt std::num_put<wchar_t,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,long double) const'
+          with
+          [
+              _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>,
+              _Elem=wchar_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1592): warning C4774: 'sprintf_s' : format string expected in argument 3 is not a string literal
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1592): note: e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1592): note: consider using constexpr specifier for named string literals
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1575): note: while compiling class template member function '_OutIt std::num_put<wchar_t,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,double) const'
+          with
+          [
+              _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>,
+              _Elem=wchar_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1569): warning C4774: 'sprintf_s' : format string expected in argument 3 is not a string literal
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1569): note: e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1569): note: consider using constexpr specifier for named string literals
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1565): note: while compiling class template member function '_OutIt std::num_put<wchar_t,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,unsigned __int64) const'
+          with
+          [
+              _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>,
+              _Elem=wchar_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1559): warning C4774: 'sprintf_s' : format string expected in argument 3 is not a string literal
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1559): note: e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1559): note: consider using constexpr specifier for named string literals
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1555): note: while compiling class template member function '_OutIt std::num_put<wchar_t,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,__int64) const'
+          with
+          [
+              _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>,
+              _Elem=wchar_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1549): warning C4774: 'sprintf_s' : format string expected in argument 3 is not a string literal
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1549): note: e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1549): note: consider using constexpr specifier for named string literals
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1545): note: while compiling class template member function '_OutIt std::num_put<wchar_t,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,unsigned long) const'
+          with
+          [
+              _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>,
+              _Elem=wchar_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1539): warning C4774: 'sprintf_s' : format string expected in argument 3 is not a string literal
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1539): note: e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1539): note: consider using constexpr specifier for named string literals
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1535): note: while compiling class template member function '_OutIt std::num_put<wchar_t,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,long) const'
+          with
+          [
+              _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>,
+              _Elem=wchar_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\streambuf(631): warning C4820: 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>': '1' bytes padding added after data member 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>::_Got'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(775): note: see reference to class template instantiation 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(775): note: while compiling class template member function '_InIt std::num_get<wchar_t,_InIt>::do_get(_InIt,_InIt,std::ios_base &,std::ios_base::iostate &,void *&) const'
+          with
+          [
+              _InIt=std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1856): note: see reference to class template instantiation 'std::num_get<wchar_t,std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\streambuf(632): warning C4820: 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>': '4' bytes padding added after data member 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>::_Val'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\streambuf(549): warning C4820: 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>::_Istreambuf_proxy': '6' bytes padding added after data member 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>::_Istreambuf_proxy::_Keep'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(767): note: see reference to class template instantiation 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>::_Istreambuf_proxy' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(763): note: while compiling class template member function '_InIt std::num_get<wchar_t,_InIt>::do_get(_InIt,_InIt,std::ios_base &,std::ios_base::iostate &,long double &) const'
+          with
+          [
+              _InIt=std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\streambuf(710): warning C4820: 'std::ostreambuf_iterator<char,std::char_traits<char>>': '7' bytes padding added after data member 'std::ostreambuf_iterator<char,std::char_traits<char>>::_Failed'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1623): note: see reference to class template instantiation 'std::ostreambuf_iterator<char,std::char_traits<char>>' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1623): note: while compiling class template member function '_OutIt std::num_put<char,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,const void *) const'
+          with
+          [
+              _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>,
+              _Elem=char
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1852): note: see reference to class template instantiation 'std::num_put<char,std::ostreambuf_iterator<char,std::char_traits<char>>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\streambuf(632): warning C4820: 'std::istreambuf_iterator<char,std::char_traits<char>>': '6' bytes padding added after data member 'std::istreambuf_iterator<char,std::char_traits<char>>::_Val'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(775): note: see reference to class template instantiation 'std::istreambuf_iterator<char,std::char_traits<char>>' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(775): note: while compiling class template member function '_InIt std::num_get<char,_InIt>::do_get(_InIt,_InIt,std::ios_base &,std::ios_base::iostate &,void *&) const'
+          with
+          [
+              _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1850): note: see reference to class template instantiation 'std::num_get<char,std::istreambuf_iterator<char,std::char_traits<char>>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\streambuf(549): warning C4820: 'std::istreambuf_iterator<char,std::char_traits<char>>::_Istreambuf_proxy': '7' bytes padding added after data member 'std::istreambuf_iterator<char,std::char_traits<char>>::_Istreambuf_proxy::_Keep'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(767): note: see reference to class template instantiation 'std::istreambuf_iterator<char,std::char_traits<char>>::_Istreambuf_proxy' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(763): note: while compiling class template member function '_InIt std::num_get<char,_InIt>::do_get(_InIt,_InIt,std::ios_base &,std::ios_base::iostate &,long double &) const'
+          with
+          [
+              _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string(530): warning C4774: '_scprintf' : format string expected in argument 1 is not a string literal
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string(530): note: e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string(530): note: consider using constexpr specifier for named string literals
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string(583): note: see reference to function template instantiation 'std::string std::_Floating_to_string<float>(const char *,_Ty)' being compiled
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string(532): warning C4774: 'sprintf_s' : format string expected in argument 3 is not a string literal
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string(532): note: e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string(532): note: consider using constexpr specifier for named string literals
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string(542): warning C4774: '_scwprintf' : format string expected in argument 1 is not a string literal
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string(542): note: e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string(542): note: consider using constexpr specifier for named string literals
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string(629): note: see reference to function template instantiation 'std::wstring std::_Floating_to_wstring<float>(const wchar_t *,_Ty)' being compiled
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string(544): warning C4774: 'swprintf_s' : format string expected in argument 3 is not a string literal
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string(544): note: e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string(544): note: consider using constexpr specifier for named string literals
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(816): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(807): note: while compiling class template member function 'QList<QString>::QList(const QList<QString> &)'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstringlist.h(107): note: see reference to function template instantiation 'QList<QString>::QList(const QList<QString> &)' being compiled
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstringlist.h(102): note: see reference to class template instantiation 'QList<QString>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(585): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(580): note: while compiling class template member function 'void QList<QString>::append(const T &)'
+          with
+          [
+              T=QString
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstringlist.h(106): note: see reference to function template instantiation 'void QList<QString>::append(const T &)' being compiled
+          with
+          [
+              T=QString
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(594): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(603): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(951): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(940): note: while compiling class template member function 'QList<QString> &QList<QString>::operator +=(const QList<QString> &)'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstringlist.h(125): note: see reference to function template instantiation 'QList<QString> &QList<QString>::operator +=(const QList<QString> &)' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qhash.h(153): warning C4820: 'QHashNode<Key,T>': '4' bytes padding added after data member 'QHashNode<Key,T>::h'
+          with
+          [
+              Key=QString,
+              T=QVariant
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qhash.h(588): note: see reference to class template instantiation 'QHashNode<Key,T>' being compiled
+          with
+          [
+              Key=QString,
+              T=QVariant
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qhash.h(587): note: while compiling class template member function 'void QHash<QString,QVariant>::detach_helper(void)'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qhash.h(275): note: see reference to function template instantiation 'void QHash<QString,QVariant>::detach_helper(void)' being compiled
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvariant.h(775): note: see reference to class template instantiation 'QHash<QString,QVariant>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(231): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(224): note: while compiling class template member function 'QMapNode<Key,T> *QMapData<Key,T>::createNode(const Key &,const T &,QMapNode<Key,T> *,bool)'
+          with
+          [
+              Key=QString,
+              T=QVariant
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(801): note: see reference to function template instantiation 'QMapNode<Key,T> *QMapData<Key,T>::createNode(const Key &,const T &,QMapNode<Key,T> *,bool)' being compiled
+          with
+          [
+              Key=QString,
+              T=QVariant
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(347): note: see reference to class template instantiation 'QMapData<Key,T>' being compiled
+          with
+          [
+              Key=QString,
+              T=QVariant
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(343): note: while compiling class template member function 'QMap<QString,QVariant>::QMap(QMap<QString,QVariant> &&) noexcept'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvariant.h(799): note: see reference to function template instantiation 'QMap<QString,QVariant>::QMap(QMap<QString,QVariant> &&) noexcept' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(235): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(215): warning C4946: reinterpret_cast used between related classes: 'QMapNodeBase' and 'QMapNode<Key,T>'
+          with
+          [
+              Key=QString,
+              T=QVariant
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(82): note: see declaration of 'QMapNodeBase'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(323): note: see declaration of 'QMapNode<Key,T>'
+          with
+          [
+              Key=QString,
+              T=QVariant
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(215): note: while compiling class template member function 'QMapNode<Key,T> *QMapData<Key,T>::end(void)'
+          with
+          [
+              Key=QString,
+              T=QVariant
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmap.h(793): note: see reference to function template instantiation 'QMapNode<Key,T> *QMapData<Key,T>::end(void)' being compiled
+          with
+          [
+              Key=QString,
+              T=QVariant
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(212): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(200): note: while compiling class template member function 'void std::numpunct<wchar_t>::_Init(const std::_Locinfo &,bool)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(160): note: see reference to function template instantiation 'void std::numpunct<wchar_t>::_Init(const std::_Locinfo &,bool)' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum(1854): note: see reference to class template instantiation 'std::numpunct<wchar_t>' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(760): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(754): note: while compiling class template member function 'QList<QString>::Node *QList<QString>::detach_helper_grow(int,int)'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(582): note: see reference to function template instantiation 'QList<QString>::Node *QList<QString>::detach_helper_grow(int,int)' being compiled
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(807): note: while compiling class template member function 'QList<QString>::QList(const QList<QString> &)'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qstringlist.h(107): note: see reference to function template instantiation 'QList<QString>::QList(const QList<QString> &)' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(768): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(789): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(784): note: while compiling class template member function 'void QList<QString>::detach_helper(int)'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(572): note: see reference to function template instantiation 'void QList<QString>::detach_helper(int)' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(466): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(457): note: while compiling class template member function 'void QList<QString>::node_copy(QList<QString>::Node *,QList<QString>::Node *,QList<QString>::Node *)'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(813): note: see reference to function template instantiation 'void QList<QString>::node_copy(QList<QString>::Node *,QList<QString>::Node *,QList<QString>::Node *)' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qlist.h(479): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(388): warning C4820: 'QtPrivate::ConverterFunctor<T,QtMetaTypePrivate::QPairVariantInterfaceImpl,QtMetaTypePrivate::QPairVariantInterfaceConvertFunctor<T>>': '7' bytes padding added after data member 'QtPrivate::ConverterFunctor<T,QtMetaTypePrivate::QPairVariantInterfaceImpl,QtMetaTypePrivate::QPairVariantInterfaceConvertFunctor<T>>::m_function'
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(2203): note: see reference to class template instantiation 'QtPrivate::ConverterFunctor<T,QtMetaTypePrivate::QPairVariantInterfaceImpl,QtMetaTypePrivate::QPairVariantInterfaceConvertFunctor<T>>' being compiled
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(2197): note: while compiling class template member function 'bool QtPrivate::IsMetaTypePair<QPair<QVariant,QVariant>,true>::registerConverter(int)'
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(1692): note: see reference to function template instantiation 'bool QtPrivate::IsMetaTypePair<QPair<QVariant,QVariant>,true>::registerConverter(int)' being compiled
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(1562): note: see reference to class template instantiation 'QtPrivate::IsMetaTypePair<QPair<QVariant,QVariant>,true>' being compiled
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(1567): note: see reference to class template instantiation 'QtPrivate::IsPair<T>' being compiled
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(1692): note: see reference to class template instantiation 'QtPrivate::MetaTypePairHelper<T>' being compiled
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(2078): note: see reference to function template instantiation 'int qRegisterNormalizedMetaType<QPair<QVariant,QVariant>>(const QByteArray &,T *,QtPrivate::MetaTypeDefinedHelper<T,true>::DefinedType)' being compiled
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(2078): note: while compiling class template member function 'int QMetaTypeId<T>::qt_metatype_id(void)'
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(1598): note: see reference to function template instantiation 'int QMetaTypeId<T>::qt_metatype_id(void)' being compiled
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(1597): note: see reference to class template instantiation 'QMetaTypeId<T>' being compiled
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(1732): note: see reference to class template instantiation 'QMetaTypeId2<T>' being compiled
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qvariant.h(810): note: see reference to function template instantiation 'int qMetaTypeId<QPair<QVariant,QVariant>>(void)' being compiled
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(388): warning C4625: 'QtPrivate::ConverterFunctor<T,QtMetaTypePrivate::QPairVariantInterfaceImpl,QtMetaTypePrivate::QPairVariantInterfaceConvertFunctor<T>>': copy constructor was implicitly defined as deleted
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+H:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore/qmetatype.h(388): warning C4626: 'QtPrivate::ConverterFunctor<T,QtMetaTypePrivate::QPairVariantInterfaceImpl,QtMetaTypePrivate::QPairVariantInterfaceConvertFunctor<T>>': assignment operator was implicitly defined as deleted
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(1530): warning C4710: 'int swprintf_s(wchar_t *const ,const size_t,const wchar_t *const ,...)': function not inlined
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(1530): note: see declaration of 'swprintf_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(1761): warning C4710: 'int _scwprintf(const wchar_t *const ,...)': function not inlined
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(1761): note: see declaration of '_scwprintf'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1833): warning C4710: 'int sprintf_s(char *const ,const size_t,const char *const ,...)': function not inlined
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1833): note: see declaration of 'sprintf_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2100): warning C4710: 'int _scprintf(const char *const ,...)': function not inlined
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2100): note: see declaration of '_scprintf'
+  easypaintGrp1.vcxproj -> H:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\Debug\easypaintGrp1.exe
