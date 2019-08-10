@@ -1,1 +1,1 @@
-# CSC-4111
+# CSC-4111 Software Engineering Lab
