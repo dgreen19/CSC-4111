@@ -1,3 +1,0 @@
-D:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin/CMakeFiles/easypaintGrp1.dir
-D:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin/CMakeFiles/ALL_BUILD.dir
-D:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin/CMakeFiles/ZERO_CHECK.dir

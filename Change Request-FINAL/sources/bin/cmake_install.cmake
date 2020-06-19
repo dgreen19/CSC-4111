@@ -1,4 +1,4 @@
-# Install script for directory: H:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project
+# Install script for directory: E:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "H:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

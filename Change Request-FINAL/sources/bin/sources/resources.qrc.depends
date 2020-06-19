@@ -43,5 +43,6 @@
         <file>media/instruments-icons/convex-hexagon.png</file>
 		<file>media/instruments-icons/scalene.png</file>
         <file>media/instruments-icons/obtuse.png</file>
+		<file>media/instruments-icons/freeform.png</file>
     </qresource>
 </RCC>
